@@ -212,8 +212,8 @@ UserInputService.InputChanged:Connect(
  end
 )
 end
-_G.BGColor_1 = Color3.fromRGB(153,255,255)
-_G.BGColor_2 = Color3.fromRGB(153, 255, 255)
+_G.BGColor_1 = Color3.fromRGB(224,224,224)
+_G.BGColor_2 = Color3.fromRGB(224, 224, 234)
 _G.Color = Color3.fromRGB(255, 255, 255)
 _G.WindowBackgroundColor = Color3.fromRGB(153,255,255)
 _G.BackgroundItemColor = Color3.fromRGB(20, 20, 20)
@@ -253,7 +253,7 @@ Main.Name = "Main"
 Main.Parent = ZENHUB
 Main.ClipsDescendants = true
 Main.AnchorPoint = Vector2.new(0.5,0.5)
-Main.BackgroundColor3 = Color3.fromRGB(153, 255, 255)
+Main.BackgroundColor3 = Color3.fromRGB(224, 224, 224)
 Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 Main.Size = UDim2.new(0, 0, 0, 0)
 
@@ -269,7 +269,7 @@ MCNR.Parent = Main
 local Top = Instance.new("Frame")
 Top.Name = "Top"
 Top.Parent = Main
-Top.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Top.BackgroundColor3 = Color3.fromRGB(224, 224, 224)
 --Top.Size = UDim2.new(0, 656, 0, 27)
 Top.Size = UDim2.new(0, 556, 0, 27)
 
