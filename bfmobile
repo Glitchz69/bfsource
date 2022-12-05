@@ -1,5 +1,5 @@
 game.StarterGui:SetCore("SendNotification", {
-      Icon = "rbxassetid://11354741327";
+      Icon = "rbxassetid://11593537847";
       Title = "Zen Hub", 
       Text = "No Key For Now!!",
        Button1 = "Ok cool",
@@ -2800,7 +2800,7 @@ tween:Play()
 end
 
 --------------------------------------------------------------------
-local Library = Update:Window("Zen Hub","11354741327")
+local Library = Update:Window("Zen Hub","11593537847")
 --------------------------------------------------------------------
 local Main = Library:Tab("Main","rbxassetid://11446825283")
 local Setting = Library:Tab("Settings","rbxassetid://11446835336")
@@ -2816,8 +2816,8 @@ local Op = Library:Tab("Status", "rbxassetid://7040410130")
 --------------------------------------------------------------------
 Update:Notification("Hello, " ..game.Players.LocalPlayer.DisplayName.. " Welcome To Zen Hub Mobile! Enjoy Using it! ")
 Setting:Seperator("Credits")
-Setting:Label("Made By Toshi.#2667")
-Setting:Label("Ui Remade By Toshi.")
+Setting:Label("Made By Npg#8550")
+Setting:Label("Ui Remade By Npg.")
 
 Setting:Label("Join My discord For More Info!")
 
@@ -2830,7 +2830,7 @@ Setting:Button("Copy Discord Link",function()
 
 Setting:Button("Copy Youtube Link",function()
  Update:Notification("Youtube Link Copied")
- setclipboard("https://youtube.com/channel/UCwDlHLzKeqDDHTx3yDmVuyg")
+ setclipboard("https://youtube.com/channel/NPGARMY")
  end)
 
 Setting:Seperator("Setting")
